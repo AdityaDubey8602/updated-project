@@ -1,0 +1,37 @@
+.section {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(to right, rgb(109, 109, 245), rgba(68, 227, 68, 0.553));
+}
+
+.container {
+    padding-top: 50px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    padding-left: 42px;
+}
+.container h3 {
+    font-weight: 500;
+    color: white;
+    padding-left: 42px;
+    padding-bottom: 70px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .container h3 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+}

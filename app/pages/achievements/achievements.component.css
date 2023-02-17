@@ -1,0 +1,28 @@
+.container {
+    padding-top: 50px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container h1 {
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    padding-left: 42px;
+}
+.container h3 {
+    font-weight: 500;
+    color: black;
+    padding-left: 42px;
+    padding-bottom: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .container h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .container h3 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+}

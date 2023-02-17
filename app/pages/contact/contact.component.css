@@ -1,0 +1,20 @@
+.container {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 200px;
+    font-family: 'Poppins',sans-serif;
+    background: #fff;
+}
+
+.container h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    padding-left: 42px;
+}
+.container h3 {
+    font-weight: 500;
+    color: white;
+    padding-left: 42px;
+    padding-bottom: 70px;
+}
